@@ -1,0 +1,26 @@
+.square {
+  display: block;
+  width: 125px;
+  height: 125px;
+  border: 1px solid var(--border);
+  background: none;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+
+  color: var(--player);
+  font-size: 5em;
+  font-weight: 100;
+  text-align: center;
+  padding: 20px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.square.active {
+  cursor: not-allowed;
+}
+
+.square:hover:not(.active) {
+  background-color: var(--square-hover);
+}

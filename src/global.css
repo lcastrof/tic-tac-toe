@@ -1,0 +1,31 @@
+:root {
+  --background: #222;
+  --player: #f3f3f3;
+  --border: #727272;
+  --title: #e79292;
+  --square-hover: rgb(88, 88, 88);
+  --success: #4caf50;
+  --warning: #ff9800;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+
+  font-family: 'Open Sans', sans-serif;
+  background: var(--background);
+}

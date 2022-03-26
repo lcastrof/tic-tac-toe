@@ -1,0 +1,52 @@
+.game-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.game-title {
+  color: var(--title);
+  font-size: 48px;
+}
+
+.ticTacToe {
+  display: flex;
+  justify-content: space-between;
+
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  border: 1px solid var(--border);
+}
+
+p {
+  font-size: 24px;
+}
+
+.game-turn {
+  color: var(--player);
+}
+
+.win-message {
+  color: var(--success);
+}
+
+.draw-message {
+  color: var(--warning);
+}
+
+.reset-button {
+  color: var(--player);
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid var(--border);
+  font-size: 18px;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.reset-button:hover {
+  background: var(--square-hover);
+}
